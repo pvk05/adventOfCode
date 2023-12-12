@@ -32,7 +32,7 @@ export let data = [
         Consider your entire calibration document. What is the sum of all of the calibration values?
         `,
         input: "$lib/advent/2023/inputs/01.txt",
-        js: "$lib/advent/2023/js/01.js",
+        js: "day1",
     },
     {
         slug: "day-2",
@@ -65,7 +65,7 @@ export let data = [
         Determine which games would have been possible if the bag had been loaded with only 12 red cubes, 13 green cubes, and 14 blue cubes. What is the sum of the IDs of those games?
         `,
         input: "$lib/advent/2023/inputs/02.txt",
-        js: "$lib/advent/2023/js/02.js",
+        js: "day2",
     },
     {
         slug: "day-3",
@@ -101,7 +101,7 @@ In this schematic, two numbers are not part numbers because they are not adjacen
 Of course, the actual engine schematic is much larger. What is the sum of all of the part numbers in the engine schematic?
         `,
         input: "$lib/advent/2023/inputs/03.txt",
-        js: "$lib/advent/2023/js/03.js",
+        js: "day3",
     },
     {
         slug: "day-4",
@@ -143,7 +143,7 @@ So, in this example, the Elf's pile of scratchcards is worth 13 points.
 Take a seat in the large pile of colorful cards. How many points are they worth in total?
         `,
         input: "$lib/advent/2023/inputs/04.txt",
-        js: "$lib/advent/2023/js/04.js",
+        js: "day4",
     },
     {
         slug: "day-5",
@@ -249,7 +249,7 @@ So, the lowest location number in this example is 35.
 What is the lowest location number that corresponds to any of the initial seed numbers?
         `,
         input: "$lib/advent/2023/inputs/05.txt",
-        js: "$lib/advent/2023/js/05.js",
+        js: "day5",
     },
     {
         slug: "day-6",
@@ -300,7 +300,7 @@ To see how much margin of error you have, determine the number of ways you can b
 Determine the number of ways you could beat the record in each race. What do you get if you multiply these numbers together?
         `,
         input: "$lib/advent/2023/inputs/06.txt",
-        js: "$lib/advent/2023/js/06.js",
+        js: "day6",
     },
     {
         slug: "day-7",
@@ -361,6 +361,6 @@ Now, you can determine the total winnings of this set of hands by adding up the 
 Find the rank of every hand in your set. What are the total winnings?
         `,
         input: "$lib/advent/2023/inputs/07.txt",
-        js: "$lib/advent/2023/js/07.js",
+        js: "day7",
     },
 ]

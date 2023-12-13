@@ -1,8 +1,11 @@
 import * as txt from '$lib/advent/2023/inputs/01.txt?raw';
 
+// Task 1 ====================================================================
 export function task() {
+    // split into array of lines
     let lines = txt.default.split('\n')
 
+    // define sum variable
     let sum = 0
 
     // Part 1
@@ -18,12 +21,15 @@ export function task() {
     }
 
     // Part 2
+
+    // define sum2 variable
     let sum2 = 0;
 
     for (let line of lines) {
         // skip empty lines
         if (line == '') continue
 
+        // define object to replace words with numbers
         const wordToNumber = {
             one: "one1one",
             two: "two2two",
@@ -36,6 +42,7 @@ export function task() {
             nine: "nine9nine"
         }
 
+        // loop through object
         for (const num in wordToNumber) {
             // replace all words with numbers
             line = line.replaceAll(num, wordToNumber[num])

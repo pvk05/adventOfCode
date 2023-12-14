@@ -27,7 +27,7 @@
 </script>
 
 <AppBar>
-    <h1 class="h1">Advent of Code</h1>
+    <h1 class="h1"><a href="/">Advent of Code</a></h1>
     <svelte:fragment slot="trail">
         <LightSwitch />
         <button use:popup={theme}> Theme </button>

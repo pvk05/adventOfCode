@@ -23,7 +23,7 @@ export default {
 	plugins: [
 		// 4. Append the Skeleton plugin (after other plugins)
 		skeleton({
-			themes: { preset: [ "skeleton" ] }
+			themes: { preset: [ "skeleton", "crimson", "wintry", "gold-nouveau", "hamlindigo", "modern", "rocket", "sahara", "seafoam", "vintage" ] }
 		})
 	]
 }

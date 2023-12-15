@@ -24,6 +24,18 @@
         // Defines which side of your trigger the popup will appear
         placement: "bottom",
     };
+
+    function changeTheme(theme) {
+        document.body.setAttribute("data-theme", theme);
+        let options = document.getElementsByClassName("theme")
+        for(let option of options) {
+            if(option.id === theme) {
+                option.setAttribute("class", "option btn variant-ghost-primary w-full theme bg-primary-active-token");
+            } else {
+                option.setAttribute("class", "option btn variant-ghost-primary w-full theme");
+            }
+        }
+    }
 </script>
 
 <AppBar>
@@ -40,8 +52,9 @@
                     <li class=" mt-1">
                         <button
                             on:click={() =>
-                                document.body.setAttribute("data-theme", theme)}
-                            class="btn variant-ghost-primary w-full"
+                                changeTheme(theme)}
+                            class=" option btn variant-ghost-primary w-full theme"
+                            id={theme}
                             >{theme}</button
                         >
                     </li>
